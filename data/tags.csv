@@ -1,0 +1,896 @@
+name,color,slug
+рецепт,#055C52,retsept
+еда,#8F2C75,eda
+видео рецепт,#74E8C3,video-retsept
+приготовление,#29AA70,prigotovlenie
+выпечка,#EA842A,vypechka
+вкусно,#B931CA,vkusno
+мясо,#BA2126,mjaso
+десерт,#20CAED,desert
+закуска,#2A6C9C,zakuska
+кухня,#038213,kuhnja
+ужин,#D27DB4,uzhin
+youtube,#860592,youtube
+вкусняшки,#F542AE,vkusnjashki
+салат,#2436FD,salat
+пирог,#4DF7D7,pirog
+торт,#7F9E61,tort
+курица,#549DCB,kuritsa
+завтрак,#2DB918,zavtrak
+суп,#FD010C,sup
+юмор,#667F22,jumor
+фотография,#44AD78,fotografija
+видеоблог,#74A91D,videoblog
+обед,#3B3709,obed
+рыба,#A45AFD,ryba
+вертикальное видео,#EF89AE,vertikalnoe-video
+мужская кулинария,#8C99AB,muzhskaja-kulinarija
+сладости,#3ACB10,sladosti
+печенье,#BA63EE,pechene
+другая кухня,#0C1458,drugaja-kuhnja
+сыр,#2BD4F9,syr
+блюдо,#FE1819,bljudo
+картофель,#FF4E9E,kartofel
+хлеб,#B3C60B,hleb
+питание,#B907C2,pitanie
+пицца,#98031C,pitstsa
+соус,#9F8E98,sous
+повар,#2CE4A8,povar
+блины,#126F55,bliny
+тесто,#17169C,testo
+грибы,#079E25,griby
+быстро,#6CA5B8,bystro
+мат,#53EFE1,mat
+свинина,#654122,svinina
+шашлык,#2A6052,shashlyk
+кекс,#A1D744,keks
+котлеты,#4FC15D,kotlety
+заготовки,#07E895,zagotovki
+новый год,#BA481C,novyj-god
+овощи,#78C1D4,ovoschi
+яйца,#4911D1,jajtsa
+кабачок,#ECE9AF,kabachok
+с дедом за обедом,#B9335F,s-dedom-za-obedom
+irinacooking,#6D4E00,irinacooking
+рецепты курицы,#96328D,retsepty-kuritsy
+творог,#AC0296,tvorog
+правильное питание,#5AB87B,pravilnoe-pitanie
+запеканка,#68BD27,zapekanka
+кот,#C542A7,kot
+к чаю,#28548B,k-chaju
+диета,#1DA93D,dieta
+праздничный стол,#8A7C2C,prazdnichnyj-stol
+колбаса,#65B5F2,kolbasa
+своими руками,#2366AD,svoimi-rukami
+булочки,#6208FB,bulochki
+интересное,#D7BB42,interesnoe
+говядина,#EB1CAD,govjadina
+макароны,#F45759,makarony
+вторые блюда,#D0F15E,vtorye-bljuda
+гриль,#E8E3C0,gril
+пельмени,#22FCFF,pelmeni
+рулет,#51020D,rulet
+скриншот,#596024,skrinshot
+пасха,#403287,pasha
+капуста,#BF4AB1,kapusta
+шоколад,#639095,shokolad
+в духовке,#1614E1,v-duhovke
+куриное филе,#0EF4AE,kurinoe-file
+плов,#31BBD7,plov
+тыква,#720D62,tykva
+оладьи,#0C576D,oladi
+баклажан,#2B12C1,baklazhan
+яблоки,#0F8368,jabloki
+паста,#19260C,pasta
+лаваш,#653D8E,lavash
+бутерброд,#F09473,buterbrod
+лайфхак,#DAC512,lajfhak
+борщ,#65A9D5,borsch
+картинка с текстом,#0D8DA5,kartinka-s-tekstom
+бургер,#FE0BC0,burger
+алкоголь,#37E716,alkogol
+домашняя колбаса,#40F9EE,domashnjaja-kolbasa
+просто,#7E44A7,prosto
+фарш,#157BB5,farsh
+лепешки,#B09297,lepeshki
+история,#51FBC4,istorija
+помидоры,#645CFE,pomidory
+кулич,#29B635,kulich
+закуска к пиву,#011DE6,zakuska-k-pivu
+всегда вкусно,#74889E,vsegda-vkusno
+рис,#B4CBBB,ris
+специи,#E4A715,spetsii
+яичница,#CAAE1D,jaichnitsa
+перец,#273199,perets
+духовка,#A552B9,duhovka
+зож,#FD8635,zozh
+мороженое,#62911A,morozhenoe
+напитки,#B6034E,napitki
+шаурма,#159AE6,shaurma
+копчение,#D213BD,kopchenie
+чизкейк,#92D470,chizkejk
+майонез,#B06FB9,majonez
+пирожное,#24CC67,pirozhnoe
+комментарии,#DE54FD,kommentarii
+вопрос,#B4C462,vopros
+сырники,#724573,syrniki
+необычная еда,#08DDF6,neobychnaja-eda
+пирожок,#A61CF4,pirozhok
+омлет,#502549,omlet
+казан,#E378FF,kazan
+маринование,#CCF8F2,marinovanie
+ссср,#6C8833,sssr
+фастфуд,#93D83E,fastfud
+литературная кухня,#3C8A40,literaturnaja-kuhnja
+праздники,#F2F49D,prazdniki
+каша,#7A5732,kasha
+мультиварка,#A54F72,multivarka
+огурцы,#D3E2B0,ogurtsy
+стейк,#EDB175,stejk
+маринад,#B97DFF,marinad
+селедка,#1320AE,seledka
+печень,#5C08E4,pechen
+сосиски,#7812F1,sosiski
+дрожжевое тесто,#66FAFF,drozhzhevoe-testo
+продукты,#ED0F28,produkty
+бекон,#652E05,bekon
+дети,#002C91,deti
+бисквит,#B5273B,biskvit
+гречка,#8CC25F,grechka
+итальянская кухня,#700C6F,italjanskaja-kuhnja
+шарлотка,#B3225B,sharlotka
+креветки,#2CB645,krevetki
+лапша,#807FD5,lapsha
+роллы,#8A806F,rolly
+масленица,#D52FEF,maslenitsa
+индейка,#E67FA0,indejka
+полезное,#2ED76D,poleznoe
+скумбрия,#6CF49D,skumbrija
+похудение,#4C572C,pohudenie
+сэндвич,#856575,sendvich
+комментарии на пикабу,#7ECF69,kommentarii-na-pikabu
+совет,#592CAE,sovet
+oblomoff,#BB6FC9,oblomoff
+сало,#30144A,salo
+консервирование,#F4DCC2,konservirovanie
+пост,#8D4A70,post
+лук,#63A746,luk
+пикабу,#80F24E,pikabu
+корейская кухня,#6220B2,korejskaja-kuhnja
+ресторан,#75A92C,restoran
+мангал,#28B767,mangal
+повтор,#B81018,povtor
+world of warcraft,#E28AC5,world-of-warcraft
+варенье,#72FACF,varene
+девушки,#BB7221,devushki
+постные блюда,#002D6B,postnye-bljuda
+салат с курицей,#F92E66,salat-s-kuritsej
+баранина,#8608E6,baranina
+россия,#3A6FE4,rossija
+запекание,#D91BA7,zapekanie
+пиво,#D5FD08,pivo
+готовка для ленивых,#C344EE,gotovka-dlja-lenivyh
+мемы,#C48434,memy
+пирожки,#E13756,pirozhki
+барбекю,#EC8895,barbekju
+вкусная минутка,#083F22,vkusnaja-minutka
+драники,#8705FE,draniki
+конфеты,#E769DE,konfety
+морепродукты,#03E653,moreprodukty
+перекус,#5A72AE,perekus
+рукожоп,#A5ED7E,rukozhop
+кулинарная кругосветка,#C71ED9,kulinarnaja-krugosvetka
+детство,#F92637,detstvo
+запеченный картофель,#42C69F,zapechennyj-kartofel
+кулинарная книга,#67AC82,kulinarnaja-kniga
+меню,#E80E18,menju
+приправы,#3662DB,pripravy
+чебурек,#2A0318,cheburek
+бра,#2D7ECC,bra
+ветчина,#99AB2E,vetchina
+окрошка,#DBE4BD,okroshka
+без звука,#063236,bez-zvuka
+истории из жизни,#4A28AE,istorii-iz-zhizni
+веганы,#E6FA5D,vegany
+шампиньоны,#1F1E88,shampinony
+паштет,#DC11DE,pashtet
+банан,#26F1F1,banan
+вкусно и быстро,#E64747,vkusno-i-bystro
+суши,#FE3112,sushi
+dinoburger,#A3B166,dinoburger
+вконтакте,#19BF2F,vkontakte
+книги,#40A3AB,knigi
+хачапури,#67B3D3,hachapuri
+хобби,#0CC523,hobbi
+спагетти,#2B0D39,spagetti
+чеснок,#0CCB7A,chesnok
+warcraft,#F97494,warcraft
+первые блюда,#FCACE3,pervye-bljuda
+вареники,#C540CB,vareniki
+вегетарианство,#5E5ACE,vegetarianstvo
+пончики,#8E629C,ponchiki
+кондитер,#BA9909,konditer
+помидор,#7F7C14,pomidor
+пряности,#6DCA4E,prjanosti
+сковорода,#4ECC92,skovoroda
+комиксы,#F4965C,komiksy
+макарономания,#63F8C3,makaronomanija
+крем,#28D5AD,krem
+морковь,#DE9C59,morkov
+овощной салат,#FD071E,ovoschnoj-salat
+фоторецепт,#01C130,fotoretsept
+эксперимент,#E8D18C,eksperiment
+без выпечки,#C1B1F3,bez-vypechki
+кондитерские изделия,#DCF83D,konditerskie-izdelija
+шеф-повар,#12B50B,shef-povar
+японская кухня,#1CCE1A,japonskaja-kuhnja
+квас,#AF932E,kvas
+семья,#7A2656,semja
+утка,#A79FBC,utka
+фрукты,#1973F6,frukty
+чипсы,#0D8F3C,chipsy
+яндекс дзен,#93C0F1,jandeks-dzen
+картинки,#9E7A85,kartinki
+асмр,#4D76FB,asmr
+голубцы,#56C4D5,golubtsy
+грузинская кухня,#719CC7,gruzinskaja-kuhnja
+маффины,#4BF15F,maffiny
+жареная картошка,#D3E19F,zharenaja-kartoshka
+поход,#4E2B47,pohod
+яблочный пирог,#7107C4,jablochnyj-pirog
+ягоды,#6F7DB6,jagody
+вяленое мясо,#C56956,vjalenoe-mjaso
+жесть,#B0D733,zhest
+здоровье,#FDBE3F,zdorove
+китайская кухня,#57F166,kitajskaja-kuhnja
+острое,#D23447,ostroe
+япония,#1F59E7,japonija
+жуй-ка!,#CA455A,zhuj-ka
+помощь,#66E9FA,pomosch
+домашнее,#9E79A8,domashnee
+здоровое питание,#27737C,zdorovoe-pitanie
+куриные крылышки,#C39D55,kurinye-krylyshki
+национальная кухня,#76E03D,natsionalnaja-kuhnja
+орехи,#D4096E,orehi
+путешествия,#170B49,puteshestvija
+пятничный тег моё,#C48805,pjatnichnyj-teg-moe
+шоколадный торт,#3DF785,shokoladnyj-tort
+китай,#8798F0,kitaj
+фарширование,#03B15C,farshirovanie
+туризм,#867DE6,turizm
+чай,#F1EA8D,chaj
+слоеное тесто,#09C65D,sloenoe-testo
+консервы,#C99729,konservy
+тефтели,#39A4F7,tefteli
+уха,#79B2C2,uha
+фасоль,#99709A,fasol
+италия,#DB6B02,italija
+экономия,#5A8448,ekonomija
+прикол,#729E2F,prikol
+солянка,#773275,soljanka
+холостяк,#02F8A6,holostjak
+песочное тесто,#11D47A,pesochnoe-testo
+деликатес,#7898F2,delikates
+инструкция,#4CD58C,instruktsija
+пюре,#2ABDA6,pjure
+рулька,#423A35,rulka
+свекла,#7B9F03,svekla
+азиатская кухня,#C6EC41,aziatskaja-kuhnja
+без рейтинга,#B457A9,bez-rejtinga
+гарнир,#EEC76E,garnir
+кальмар,#DEBAC2,kalmar
+лучшее,#FA8243,luchshee
+студенты,#2AF205,studenty
+искусство,#8C09D2,iskusstvo
+лимон,#60DB4E,limon
+вишня,#56644F,vishnja
+безе,#A37F29,beze
+жаркое,#FC2B49,zharkoe
+клубника,#06A7D5,klubnika
+работа,#3B59EE,rabota
+сладкоежки,#ADD9D9,sladkoezhki
+тунец,#3D0FB8,tunets
+8 марта,#EC2BE2,8-marta
+вафли,#DF1EFA,vafli
+красота,#419F9D,krasota
+манник,#160460,mannik
+на скорую руку,#653B3D,na-skoruju-ruku
+с пылу с жару,#165F6A,s-pylu-s-zharu
+тирамису,#CE43F8,tiramisu
+twitter,#6ADB6B,twitter
+природа,#F70031,priroda
+мясоеды,#60FB16,mjasoedy
+не мое,#0D476D,ne-moe
+нужен совет,#C0EB05,nuzhen-sovet
+подарки,#359194,podarki
+рагу,#791550,ragu
+рассказ,#CFE8CF,rasskaz
+ребрышки,#A6210D,rebryshki
+blizzard,#9A6265,blizzard
+cookbook,#38196B,cookbook
+авокадо,#7D3E02,avokado
+гренки,#85D351,grenki
+доширак,#C67DC1,doshirak
+коктейль,#82CB8D,koktejl
+микроволновка,#4F358B,mikrovolnovka
+селедка под шубой,#1C0D13,seledka-pod-shuboj
+тушенка,#9AA134,tushenka
+фудфото,#D1BA18,fudfoto
+fail,#2E0D9E,fail
+панкейк,#343E2E,pankejk
+политика,#BF10FA,politika
+заливной пирог,#6BA09A,zalivnoj-pirog
+лето,#9DA84B,leto
+пряники,#BC540A,prjaniki
+гост,#EE7464,gost
+жарка,#1334CE,zharka
+икра,#EAEE2E,ikra
+кефир,#4A80B7,kefir
+лазанья,#CC0730,lazanja
+масло,#EF39E4,maslo
+медовик,#BAEF5E,medovik
+начинка,#69958A,nachinka
+сыроделие,#CF1A29,syrodelie
+творчество,#13B12E,tvorchestvo
+мама,#8F04CC,mama
+франция,#3AB9C3,frantsija
+гуляш,#2B086A,guljash
+короткопост,#4AE71C,korotkopost
+молоко,#50FADB,moloko
+новости,#243D53,novosti
+оливье,#33B450,olive
+творожная запеканка,#2D8AF0,tvorozhnaja-zapekanka
+холодец,#BFAC23,holodets
+черный юмор,#A0B2E5,chernyj-jumor
+foodporn,#D11D09,foodporn
+болгарский перец,#E39E00,bolgarskij-perets
+в домашних условиях,#9CC6A1,v-domashnih-uslovijah
+горячее копчение,#5746AD,gorjachee-kopchenie
+лосось,#674BE5,losos
+манты,#D05A27,manty
+фрикадельки,#2182BC,frikadelki
+tik tok,#959BC7,tik-tok
+украина,#64D0B2,ukraina
+пирог с творогом,#FEB01A,pirog-s-tvorogom
+познавательно,#538CE5,poznavatelno
+филе,#DDC9C8,file
+собака,#E4D37E,sobaka
+фото,#249BC7,foto
+дача,#80A722,dacha
+из сети,#485879,iz-seti
+мексиканская кухня,#410205,meksikanskaja-kuhnja
+новогодний стол,#708BF3,novogodnij-stol
+пирог яблочный,#064693,pirog-jablochnyj
+сгущенка,#E2567E,sguschenka
+сосиска в тесте,#DE1958,sosiska-v-teste
+апельсин,#32EC61,apelsin
+день рождения,#03393E,den-rozhdenija
+засолка,#D60603,zasolka
+кролик,#9F4A53,krolik
+неудача,#F4C5C2,neudacha
+9gag,#508C64,9gag
+германия,#4F6B20,germanija
+гордон рамзи,#E654A5,gordon-ramzi
+соль,#0B4370,sol
+горячее,#00E31D,gorjachee
+зефир,#02E2B0,zefir
+на зиму,#F68997,na-zimu
+приятного аппетита,#C5BE82,prijatnogo-appetita
+простомужик,#28AB4E,prostomuzhik
+узбекская кухня,#DC270E,uzbekskaja-kuhnja
+желе,#593920,zhele
+кулинарный юмор,#EC21C1,kulinarnyj-jumor
+дом,#0CAA71,dom
+жизнь,#BE8464,zhizn
+загадка,#1D958C,zagadka
+м:,#E15781,m
+мужская еда,#84B099,muzhskaja-eda
+ожидание и реальность,#3F5422,ozhidanie-i-realnost
+русская кухня,#1954DA,russkaja-kuhnja
+игры,#1E1922,igry
+ребус,#4CF5A4,rebus
+фарш кулинарный,#3DD82B,farsh-kulinarnyj
+домашняя выпечка,#6643FD,domashnjaja-vypechka
+карамель,#B8E7F9,karamel
+квашеная капуста,#0FDD37,kvashenaja-kapusta
+личный опыт,#223540,lichnyj-opyt
+овсянка,#C32022,ovsjanka
+реальная история из жизни,#5142D1,realnaja-istorija-iz-zhizni
+слоеный салат,#24458D,sloenyj-salat
+тайская кухня,#5415E5,tajskaja-kuhnja
+хот-дог,#6B8063,hot-dog
+буженина,#76F8AC,buzhenina
+выпечка с творогом,#8B51EC,vypechka-s-tvorogom
+нут,#560189,nut
+торт наполеон,#2C7136,tort-napoleon
+вкусы,#E0C2C1,vkusy
+зелень,#83EE3D,zelen
+картошка с мясом,#8FE7C9,kartoshka-s-mjasom
+крем-суп,#54B3BA,krem-sup
+наггетсы,#DFCF50,naggetsy
+общежитие,#69C9F7,obschezhitie
+острый соус,#29F2C0,ostryj-sous
+переписка,#4B55D6,perepiska
+семга,#F2AC16,semga
+amaury guichon,#6C7F7B,amaury-guichon
+good eat,#D8528B,good-eat
+гамбургер,#0DB749,gamburger
+дешево,#0B5E0A,deshevo
+закваска,#2858E3,zakvaska
+идея,#F2AEE4,ideja
+карри,#1B22A0,karri
+крабовые палочки,#33FE5E,krabovye-palochki
+малосольные огурцы,#525E19,malosolnye-ogurtsy
+морковь по-корейски,#753F15,morkov-po-korejski
+ням-ням,#220BAB,njam-njam
+рождество,#EE68CC,rozhdestvo
+рыбалка,#9BD21C,rybalka
+сметана,#184997,smetana
+сыровяленое мясо,#611B41,syrovjalenoe-mjaso
+штрудель,#EEC188,shtrudel
+вино,#07C876,vino
+пудинг,#6E9ACB,puding
+ребусы от романа,#87E996,rebusy-ot-romana
+волна постов,#A1A414,volna-postov
+головоломка,#57D207,golovolomka
+задача,#FB3D65,zadacha
+капкейки,#944E66,kapkejki
+кофе,#87CA51,kofe
+логическая задача,#8A1AFB,logicheskaja-zadacha
+макдоналдс,#6ACC36,makdonalds
+мидии,#E9BD2F,midii
+мобильная фотография,#9B1AE6,mobilnaja-fotografija
+негатив,#684D4F,negativ
+острый перец,#939AB1,ostryj-perets
+перевел сам,#B44634,perevel-sam
+реклама,#28C52C,reklama
+свиные ребрышки,#A15082,svinye-rebryshki
+справка,#3C586B,spravka
+справочник,#819993,spravochnik
+rumkin,#1911AB,rumkin
+игра престолов,#73596F,igra-prestolov
+легко,#885D31,legko
+опыт,#171832,opyt
+ананас,#FFE6E9,ananas
+бастурма,#86181E,basturma
+бульон,#7F8C0E,bulon
+водка,#525FEB,vodka
+крылья,#09F450,krylja
+культура,#510D34,kultura
+наука,#7F067F,nauka
+обман,#76FB82,obman
+отбивная,#93E711,otbivnaja
+отдых,#D68AE1,otdyh
+пятница,#73B212,pjatnitsa
+родители и дети,#E494E5,roditeli-i-deti
+секрет,#5ABAEB,sekret
+уличная еда,#E3CC90,ulichnaja-eda
+форель,#4832AD,forel
+чечевица,#F78091,chechevitsa
+экзотика,#85C3E7,ekzotika
+санкт-петербург,#41D804,sankt-peterburg
+шурпа,#43DBEF,shurpa
+арт,#D04A67,art
+бабушка,#4BE9D5,babushka
+без мяса,#8669A9,bez-mjasa
+гастрономия,#B31D6D,gastronomija
+горы,#75927D,gory
+забавное,#7D1876,zabavnoe
+заварной крем,#0B1E2C,zavarnoj-krem
+кукуруза,#490007,kukuruza
+лагман,#53D6C7,lagman
+море,#C53C7E,more
+перевод,#360AD4,perevod
+пирог с мясом,#78FBEA,pirog-s-mjasom
+рукоделие без процесса,#4AC3C1,rukodelie-bez-protsessa
+слойка,#8DAB59,slojka
+торт без выпечки,#BF9B58,tort-bez-vypechki
+хинкали,#0FB5D9,hinkali
+щи,#FF752E,schi
+блог,#5A4FE2,blog
+заморозка,#ED3FD4,zamorozka
+мексика,#0084A5,meksika
+москва,#E3F901,moskva
+шоу,#6BC4FB,shou
+азиаты,#A9C319,aziaty
+гусь,#ADDF40,gus
+джерки,#DB8A3F,dzherki
+жизненно,#259DA7,zhiznenno
+индийская кухня,#FF842B,indijskaja-kuhnja
+костер,#DA779F,koster
+ностальгия,#7677FA,nostalgija
+отношения,#FA0C11,otnoshenija
+смешное,#28DABE,smeshnoe
+шутка,#71C2FA,shutka
+bbq,#56D4FA,bbq
+ведьмак,#36C60A,vedmak
+кулинарное подполье,#C52699,kulinarnoe-podpole
+острая кухня,#728583,ostraja-kuhnja
+турция,#D8C8AA,turtsija
+чили,#842BAD,chili
+аджика,#5944E7,adzhika
+беляш,#AC9E12,beljash
+глазурь,#F5A088,glazur
+горбуша,#1EDC3A,gorbusha
+дичь,#ADCF89,dich
+женщина,#E58849,zhenschina
+индия,#9296BC,indija
+карбонара,#4CA1C2,karbonara
+лимонад,#6BB83E,limonad
+моцарелла,#1A2031,motsarella
+мужчина,#7406CD,muzhchina
+нож,#4EE370,nozh
+пасхальные яйца,#C335E7,pashalnye-jajtsa
+рамен,#C89601,ramen
+сливки,#0F281E,slivki
+субпродукты,#17FA34,subprodukty
+тыквенный суп,#7606DC,tykvennyj-sup
+фунчоза,#DAD2A6,funchoza
+kfc,#581C15,kfc
+доширакология,#831C26,doshirakologija
+животные,#0C5590,zhivotnye
+первый пост,#CE3C03,pervyj-post
+фильмы,#9BAB5A,filmy
+азия,#A8361B,azija
+батон,#E65DAF,baton
+без глютена,#58CF5B,bez-gljutena
+брауни,#FCD2BF,brauni
+зразы,#29BA39,zrazy
+йогурт,#283C4F,jogurt
+кабачковая икра,#57E99D,kabachkovaja-ikra
+лень,#4FC62D,len
+милота,#BA3E27,milota
+показалось,#B83C6F,pokazalos
+салат без майонеза,#971590,salat-bez-majoneza
+сдоба,#D1A661,sdoba
+соленья,#A5FB34,solenja
+странности,#05367E,strannosti
+суфле,#27114E,sufle
+томатный соус,#12DEC7,tomatnyj-sous
+увлечение,#8880F8,uvlechenie
+фритюр,#C70E5A,fritjur
+шпинат,#BAFA38,shpinat
+буррито,#3C1812,burrito
+кесадилья,#CBA1D2,kesadilja
+любовь,#95C891,ljubov
+подборка,#26E27D,podborka
+сша,#1F2926,ssha
+цыпленок табака,#8083C2,tsyplenok-tabaka
+авторский рассказ,#FAA680,avtorskij-rasskaz
+арбуз,#7BA3F2,arbuz
+воспоминания,#BED581,vospominanija
+горчица,#6463EB,gorchitsa
+грудинка,#3E2EFB,grudinka
+гурман,#AE9276,gurman
+имбирные пряники,#0CD1B0,imbirnye-prjaniki
+имбирь,#DD3AB7,imbir
+компот,#A4541B,kompot
+креатив,#46B877,kreativ
+лишний вес,#851C11,lishnij-ves
+награда,#7460F8,nagrada
+пятничное,#5DF6EC,pjatnichnoe
+ручная работа,#3F5674,ruchnaja-rabota
+рыбные блюда,#75C1E4,rybnye-bljuda
+самоизоляция,#9A8372,samoizoljatsija
+соленые огурцы,#164A5B,solenye-ogurtsy
+столовая,#F3534E,stolovaja
+сушка,#5A70E1,sushka
+традиции,#9EE56D,traditsii
+утро,#DA6F7E,utro
+хэллоуин,#B43D1A,hellouin
+голубь,#DA6C57,golub
+кулинарное шоу,#7B10E9,kulinarnoe-shou
+куриные ножки,#0A0E81,kurinye-nozhki
+ленивые голубцы,#C8915E,lenivye-golubtsy
+магазин,#A08BCF,magazin
+масленица на пикабу,#100807,maslenitsa-na-pikabu
+наготовке,#B3903C,nagotovke
+общепит,#890605,obschepit
+рататуй,#3A99AE,ratatuj
+ризотто,#5CD8E1,rizotto
+блогеры,#10A033,blogery
+гороховый суп,#AB9FB3,gorohovyj-sup
+закуска из лаваша,#1E4C39,zakuska-iz-lavasha
+крупа,#CB26CE,krupa
+охота,#F656C7,ohota
+пирожки с мясом,#063D97,pirozhki-s-mjasom
+салат цезарь,#B8B28F,salat-tsezar
+соевый соус,#AF358D,soevyj-sous
+суп-пюре,#C8BC79,sup-pjure
+тандыр,#18E7EB,tandyr
+технологии,#C3494D,tehnologii
+том ям,#D4B3E4,tom-jam
+тушеная капуста,#7BE075,tushenaja-kapusta
+фитнес,#718FFE,fitnes
+харчо,#0A1C29,harcho
+чернослив,#7F1856,chernosliv
+шакшука,#BC551A,shakshuka
+шоколадный кекс,#ECEBA9,shokoladnyj-keks
+90-е,#A2F102,90-e
+reddit,#807187,reddit
+wow,#9B2571,wow
+испания,#DD404C,ispanija
+тако,#385B93,tako
+шеф,#30C46F,shef
+аниме,#4519DF,anime
+болоньезе,#51747F,boloneze
+выживание,#8E521C,vyzhivanie
+выходные,#77ADD9,vyhodnye
+джем,#007ADF,dzhem
+жена,#DE299F,zhena
+кляр,#DDA11B,kljar
+литература,#3F7CD9,literatura
+мастер-класс,#D3628D,master-klass
+миндаль,#A34E33,mindal
+миниатюра,#262123,miniatjura
+муссовый торт,#F22A62,mussovyj-tort
+пекинская капуста,#2CDD15,pekinskaja-kapusta
+продукты питания,#A69199,produkty-pitanija
+рисунок,#1B5DE1,risunok
+рукоделие с процессом,#0B28E5,rukodelie-s-protsessom
+самса,#C7E3D5,samsa
+сериалы,#301B84,serialy
+слива,#A65F5A,sliva
+сырный суп,#A92AD8,syrnyj-sup
+тарталетки,#477516,tartaletki
+узбекистан,#90526A,uzbekistan
+фото на тапок,#5A6907,foto-na-tapok
+химия,#3EC855,himija
+яйца пашот,#D96C1D,jajtsa-pashot
+sango food,#112BDE,sango-food
+блин,#FA8DAC,blin
+вок,#BCBC26,vok
+гарри поттер,#E9D21A,garri-potter
+едим дома,#5A67C4,edim-doma
+крабовый салат,#DB5328,krabovyj-salat
+музыка,#063DCE,muzyka
+обломов,#74A427,oblomov
+панна-котта,#9A8BF6,panna-kotta
+пикник,#BE08C0,piknik
+подача блюд,#81DFE8,podacha-bljud
+халва,#F1CD37,halva
+хитрость,#4B8B0C,hitrost
+чизбургер,#531C89,chizburger
+блинный торт,#BB6A82,blinnyj-tort
+брокколи,#3EEFDA,brokkoli
+ватрушка,#EF66E5,vatrushka
+винегрет,#D12DA2,vinegret
+готовка на костре,#A0B65B,gotovka-na-kostre
+деревня,#A28F1D,derevnja
+долма,#4112E9,dolma
+жир,#600124,zhir
+кебаб,#6E57A8,kebab
+корица,#37B80F,koritsa
+курица гриль,#0DF643,kuritsa-gril
+лес,#AD7BF2,les
+мандарины,#8A2250,mandariny
+мастика,#6C04D5,mastika
+медицина,#7CC077,meditsina
+мужчины и женщины,#D83AE2,muzhchiny-i-zhenschiny
+мусс,#743F02,muss
+мята,#714BC5,mjata
+овсяное печенье,#049646,ovsjanoe-pechene
+пирог с капустой,#1B48A6,pirog-s-kapustoj
+позитив,#25DC9E,pozitiv
+процесс,#8B776E,protsess
+ребро,#05EB3A,rebro
+рыбный суп,#CD2F21,rybnyj-sup
+соус песто,#4B57CC,sous-pesto
+странный юмор,#77F1BD,strannyj-jumor
+тарт,#FD6A08,tart
+тортилья,#7E7E16,tortilja
+украшение,#556B32,ukrashenie
+факты,#523812,fakty
+хворост,#D1944B,hvorost
+школа,#FAE078,shkola
+genshin impact,#EDBD85,genshin-impact
+tiktok,#3BE181,tiktok
+adme,#C2478F,adme
+instagram,#30F308,instagram
+владимир щетинин,#9B5B01,vladimir-schetinin
+грузия,#B99A55,gruzija
+европа,#5D2315,evropa
+карантин,#DDB65F,karantin
+кривые руки,#996D1F,krivye-ruki
+мак,#5A7ABD,mak
+польша,#940987,polsha
+проклятие,#3D69A1,prokljatie
+сиськи,#646A3F,siski
+багет,#83C995,baget
+варка,#3A88E4,varka
+жара,#55A045,zhara
+жульен,#AF38B2,zhulen
+запасы на зиму,#AD46FC,zapasy-na-zimu
+кавказская кухня,#5BF82F,kavkazskaja-kuhnja
+карп,#00179B,karp
+кафе,#0C5E26,kafe
+кетчуп,#4C38A7,ketchup
+люля кебаб,#BB36A6,ljulja-kebab
+мастерство,#4F9CBC,masterstvo
+мысли,#190D03,mysli
+необычное,#47FE23,neobychnoe
+обзор,#7C5F57,obzor
+пирожки с картошкой,#4C2F10,pirozhki-s-kartoshkoj
+рыбные котлеты,#538AC6,rybnye-kotlety
+сахар,#F8814D,sahar
+сувид,#6D2EE9,suvid
+сыровяленая колбаса,#120042,syrovjalenaja-kolbasa
+французская кухня,#37EB17,frantsuzskaja-kuhnja
+эклеры,#50FAC7,eklery
+бурак оздемир,#99D990,burak-ozdemir
+краб,#6AA0B1,krab
+рогалики сдобные,#73F595,rogaliki-sdobnye
+сарказм,#DD2D14,sarkazm
+сливочный соус,#39F58D,slivochnyj-sous
+чахохбили,#FFEDFF,chahohbili
+властелин колец,#29C275,vlastelin-kolets
+груша,#1C57A2,grusha
+жрать,#C27E2B,zhrat
+как,#8A6986,kak
+какао,#455392,kakao
+картошка фри,#C3766F,kartoshka-fri
+крипота,#729BDC,kripota
+лига жратвы,#58B434,liga-zhratvy
+маркетинг,#1D977B,marketing
+мужчина на кухне,#CF8E7C,muzhchina-na-kuhne
+мясные чипсы,#77D2A7,mjasnye-chipsy
+осень,#B6AA21,osen
+открытие,#232F1B,otkrytie
+пикабушники,#F80808,pikabushniki
+плавленый сыр,#4CED3F,plavlenyj-syr
+сделано в ссср,#C2B843,sdelano-v-sssr
+смех,#B7F904,smeh
+трем сыр,#8CEF17,trem-syr
+треска,#004DF5,treska
+цветы,#D7606A,tsvety
+шедевр,#66AC04,shedevr
+bash im,#588FDE,bash-im
+австрия,#D3D76B,avstrija
+американская кухня,#3770EB,amerikanskaja-kuhnja
+ищу рецепт,#93BC80,ischu-retsept
+казахстан,#1B1125,kazahstan
+кето диета,#97A928,keto-dieta
+клубника (растение),#EC0BDC,klubnika-rastenie
+луковые кольца,#937FEA,lukovye-koltsa
+наполеон,#8E872C,napoleon
+профессионал,#B2BE75,professional
+профессия,#6C4A23,professija
+улитка,#0052DD,ulitka
+фокачча,#3B92EB,fokachcha
+харьков,#9D039E,harkov
+арахис,#93E0A9,arahis
+безалкогольные напитки,#CADC05,bezalkogolnye-napitki
+белый гриб,#BF3DDC,belyj-grib
+быстрый рецепт,#A92EBF,bystryj-retsept
+бюджетно,#BE7041,bjudzhetno
+греческий салат,#3FC69D,grecheskij-salat
+грибной суп,#33C7C3,gribnoj-sup
+домашние животные,#2FC7C8,domashnie-zhivotnye
+заливное,#6B0184,zalivnoe
+карась,#C6176B,karas
+кимчи,#28CB39,kimchi
+коптильня,#BD1812,koptilnja
+корейка,#4C5489,korejka
+красивое,#D03776,krasivoe
+куриный суп,#C32233,kurinyj-sup
+курник,#DFBA99,kurnik
+мёд,#EE19A2,med
+малина,#4EBBD3,malina
+морковный торт,#959844,morkovnyj-tort
+мраморная говядина,#908A20,mramornaja-govjadina
+намазка,#C2AF1B,namazka
+настойка,#5B6F8C,nastojka
+пита,#F93909,pita
+салат рыбный,#5D8EE7,salat-rybnyj
+свинья,#2A435C,svinja
+сдобное тесто,#1AAC24,sdobnoe-testo
+смузи,#6F8E5F,smuzi
+сорбет,#34EF74,sorbet
+спорт,#633363,sport
+тыквенный пирог,#D2A71E,tykvennyj-pirog
+хумус,#4C8CC7,humus
+эротика,#DBA011,erotika
+wok,#245961,wok
+telegram,#CAA665,telegram
+вяление,#DE82C6,vjalenie
+гаспачо,#969F70,gaspacho
+готовка на природе,#51F853,gotovka-na-prirode
+грецкие орехи,#A6E588,gretskie-orehi
+печеные яблоки,#70D956,pechenye-jabloki
+таиланд,#FEC629,tailand
+ютубер,#D34E36,jutuber
+армия,#2C0F4A,armija
+бабаски,#33A2B5,babaski
+воспоминания из детства,#9A0351,vospominanija-iz-detstva
+восточные сладости,#C25B8A,vostochnye-sladosti
+греческая кухня,#DE8782,grecheskaja-kuhnja
+дизайн,#988C5A,dizajn
+древний рим,#F62E8A,drevnij-rim
+еда кулинария,#D111D7,eda-kulinarija
+заварное тесто,#4AF566,zavarnoe-testo
+икра баклажанная,#6F4867,ikra-baklazhannaja
+коронавирус,#EA1D11,koronavirus
+ленивые вареники,#6627C5,lenivye-vareniki
+ликер,#A9F472,liker
+манка,#DEA431,manka
+минтай,#2D4EC6,mintaj
+мука,#7B621C,muka
+нищеброд,#93B333,nischebrod
+окорочка,#A4A536,okorochka
+острые крылышки,#57CA81,ostrye-krylyshki
+паэлья,#3E678A,paelja
+перепела,#5E1A08,perepela
+печь,#9DFF1E,pech
+пирожное картошка,#C2649E,pirozhnoe-kartoshka
+подлива,#D6840F,podliva
+помогите найти,#8A757A,pomogite-najti
+разочарование,#0852B9,razocharovanie
+сахарный диабет,#960B85,saharnyj-diabet
+случай из жизни,#A59729,sluchaj-iz-zhizni
+снеки,#00B275,sneki
+соседи,#AD4AC8,sosedi
+средневековье,#FA5CFE,srednevekove
+ссылка,#56EAAC,ssylka
+стихи,#7DA431,stihi
+сырный соус,#4A55AF,syrnyj-sous
+терияки,#EF8983,terijaki
+укроп,#0B88F8,ukrop
+форшмак,#C90BDB,forshmak
+фаршированные перцы,#6D3110,farshirovannye-pertsy
+цыплята,#0C69C2,tsypljata
+шницель,#47CC79,shnitsel
+coolинарная proпаганда,#9AB68B,coolinarnaja-propaganda
+niknicefood,#AE4731,niknicefood
+nikitanice,#50696C,nikitanice
+волна боянов,#A97B0C,volna-bojanov
+глинтвейн,#0C55FA,glintvejn
+дзен,#DA9EAA,dzen
+компьютерные игры,#B18C91,kompjuternye-igry
+конкурс к пасхе 2022,#36C10F,konkurs-k-pashe-2022
+мясо по-французски,#781A35,mjaso-po-frantsuzski
+сливовый пирог,#AB52A0,slivovyj-pirog
+анекдот,#8A7151,anekdot
+анимация,#B12D9F,animatsija
+батат,#CA17DF,batat
+бешбармак,#487E99,beshbarmak
+бигус,#8B1BCC,bigus
+боги маркетинга,#7EEAB4,bogi-marketinga
+брынза,#E96B9F,brynza
+булгур,#D46EB7,bulgur
+видео вк,#3F8360,video-vk
+вишневый пирог,#01F6F0,vishnevyj-pirog
+голод,#19B7F4,golod
+горячие бутерброды,#F3799D,gorjachie-buterbrody
+готовка,#AB70F1,gotovka
+декор,#46CE50,dekor
+дефлопе,#A51C37,deflope
+жареное мясо,#D6EFBA,zharenoe-mjaso
+инфографика,#D6E861,infografika
+информация,#057442,informatsija
+испанская кухня,#449205,ispanskaja-kuhnja
+каннибализм,#51BA49,kannibalizm
+кисло-сладкий соус,#AD29D5,kislo-sladkij-sous
+колбаски для жарки,#1FAB8A,kolbaski-dlja-zharki
+корея,#DE0931,koreja
+красная рыба,#460872,krasnaja-ryba
+куриное яйцо,#F8628A,kurinoe-jajtso
+кушать,#A11206,kushat
+маршмеллоу,#E27CF3,marshmellou
+мойва,#4F2EFE,mojva
+моряки,#35B54D,morjaki
+муж,#48014A,muzh
+мужчины,#8AF9EF,muzhchiny
+мясные блюда,#304D86,mjasnye-bljuda
+ответ,#460029,otvet
+пирожки с капустой,#129F84,pirozhki-s-kapustoj
+поиск,#B8A5CB,poisk
+профитроли,#45CEBD,profitroli
+раки,#6D5DFF,raki
+рецепты десертов,#A2F174,retsepty-desertov
+рецепты тралекс,#0C1FB7,retsepty-traleks
+сделать,#AD4833,sdelat
+синнабон,#659B01,sinnabon
+советское телевидение,#6E273B,sovetskoe-televidenie
+сухарики,#720839,suhariki
+шпроты,#B3ACF9,shproty
+щавель,#EFBD82,schavel
