@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Список покупок</title>
+    <style>
+      header {
+        background-color: #eee;
+        padding: 20px;
+      }
+      
+      header img {
+        height: 96px;
+        width: 96px;
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+      
+      header h1 {
+        display: inline-block;
+        font-size: 32px;
+        margin: 0;
+        vertical-align: middle;
+      }
+
+      ul li{
+        font-size: 24px;
+       }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="data:image/png;base64,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">
+      <h1>Список покупок</h1>
+    </header>
+    <main>
+      <ul>
+        {% for ingredient in unique_ingredients %}
+          <li>
+            {{ ingredient.ingredient__name }}
+            ({{ ingredient.ingredient__measurement_unit }}):
+            {{ ingredient.total_amount }}
+          </li>
+        {% empty %}
+          <li>Список пуст</li>
+        {% endfor %}
+      </ul>
+    </main>
+  </body>
+</html>
