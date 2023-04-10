@@ -20,42 +20,27 @@ User = get_user_model()
 
 class FavoriteCartCreateDelete:
     ERRORS_KEY: str = 'errors'
-    CANNOT_ADD_RECIPE_TWICE: str = 'Нельзя дважды добавить рецепт в {model}!'
-    RECIPE_NOT_IN_FAVORITES_OR_CART: str = 'Рецепт не в {model}!'
 
     def __init__(self, request: Request, recipe_queryset: QuerySet,
                  recipe_id: Optional[int],
-                 model_class: Union[Favorite, CartItem]) -> None:
+                 model_class: Union[Favorite, CartItem],
+                 already_exists_error_message: str,
+                 model_not_exists_error_message: str) -> None:
         self.request: Request = request
         self.user: User = self.request.user
         self.recipe_queryset: QuerySet = recipe_queryset
         self.recipe_id: Optional[int] = recipe_id
         self.model_class: Union[Favorite, CartItem] = model_class
-
-        if self.model_class == Favorite:
-            self.CANNOT_ADD_RECIPE_TWICE = self.CANNOT_ADD_RECIPE_TWICE.format(
-                model='избранное'
-            )
-            self.RECIPE_NOT_IN_FAVORITES_OR_CART = (
-                self.RECIPE_NOT_IN_FAVORITES_OR_CART.format(model='избранном')
-            )
-        elif self.model_class == CartItem:
-            self.CANNOT_ADD_RECIPE_TWICE = self.CANNOT_ADD_RECIPE_TWICE.format(
-                model='коризну товаров'
-            )
-            self.RECIPE_NOT_IN_FAVORITES_OR_CART = (
-                self.RECIPE_NOT_IN_FAVORITES_OR_CART.format(
-                    model='корзине товаров'
-                )
-            )
-        else:
-            raise ValueError(f'Invalid model class: {self.model_class}')
+        self.already_exists_error_message: str = already_exists_error_message
+        self.model_not_exists_error_message: str = (
+            model_not_exists_error_message
+        )
 
     def create(self) -> Response:
         recipe = self._get_recipe_or_404()
         if self._is_model_exists(recipe):
             return Response(
-                {self.ERRORS_KEY: self.CANNOT_ADD_RECIPE_TWICE},
+                {self.ERRORS_KEY: self.already_exists_error_message},
                 status.HTTP_400_BAD_REQUEST
             )
         obj = self.model_class.objects.create(owner=self.user,
@@ -67,7 +52,7 @@ class FavoriteCartCreateDelete:
         recipe = self._get_recipe_or_404()
         if not self._is_model_exists(recipe):
             return Response(
-                {self.ERRORS_KEY: self.RECIPE_NOT_IN_FAVORITES_OR_CART},
+                {self.ERRORS_KEY: self.model_not_exists_error_message},
                 status.HTTP_400_BAD_REQUEST
             )
         self.model_class.objects.get(owner=self.user, recipe=recipe).delete()

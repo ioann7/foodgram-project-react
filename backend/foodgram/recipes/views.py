@@ -106,6 +106,8 @@ class RecipeViewSet(ModelViewSet):
             self.get_queryset(),
             self.kwargs.get('recipe_id'),
             Favorite,
+            'Нельзя дважды добавить рецепт в избранное!',
+            'Рецепт не в избранном!',
         )
         if request.method == 'POST':
             return favorite.create()
@@ -118,6 +120,8 @@ class RecipeViewSet(ModelViewSet):
             self.get_queryset(),
             self.kwargs.get('recipe_id'),
             CartItem,
+            'Нельзя дважды добавить рецепт в корзине товаров!',
+            'Рецепт не в корзине товаров!',
         )
         if request.method == 'POST':
             return cart_item.create()
