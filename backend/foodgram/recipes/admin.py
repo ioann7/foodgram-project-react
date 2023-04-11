@@ -28,12 +28,15 @@ class RecipeAdmin(admin.ModelAdmin):
 
     @admin.display(description='Ингредиенты')
     def ingredients(self, obj):
-        result = []
-        for value in obj.recipe_ingredient.all():
-            result.append((
-                f'{value.ingredient.name} {value.amount} '
-                f'{value.ingredient.measurement_unit}'
-            ))
+        ingredients = obj.recipe_ingredient.values(
+            'ingredient__name',
+            'amount',
+            'ingredient__measurement_unit',
+        )
+        ingredient_str = (
+            '{ingredient__name} {amount} {ingredient__measurement_unit}'
+        )
+        result = (ingredient_str.format(**ingr) for ingr in ingredients)
         return '\n'.join(result)
 
 
