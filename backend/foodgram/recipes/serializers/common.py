@@ -86,34 +86,44 @@ class RecipeCreateSerializer(serializers.ModelSerializer):
                   'text', 'cooking_time')
         model = Recipe
 
+    def validate_ingredients(self, ingredients):
+        print('DEBUG ingredients', ingredients[0])
+        unique_ingredients_id = set(
+            [ingr['ingredient']['pk'] for ingr in ingredients]
+        )
+        if len(unique_ingredients_id) != len(ingredients):
+            raise serializers.ValidationError(
+                'Нельзя добавить одинаковые ингредиенты!'
+            )
+        return ingredients
+
     def create(self, validated_data):
         ingredients = validated_data.pop('ingredients')
         tags = validated_data.pop('tags')
         recipe = Recipe.objects.create(**validated_data)
         recipe.tags.set(tags)
-        for ingredient in ingredients:
-            RecipeIngredient.objects.create(
-                recipe=recipe,
-                ingredient=ingredient['ingredient']['pk'],
-                amount=ingredient['amount'],
-            )
+        self._set_ingredients(ingredients, recipe)
         return recipe
 
     def update(self, instance, validated_data):
-        instance.tags.set(validated_data.get('tags', instance.tags))
+        if 'tags' in validated_data:
+            instance.tags.set(validated_data.pop('tags'))
         if 'ingredients' in validated_data:
             RecipeIngredient.objects.filter(recipe=instance).delete()
-            ingredients_data = validated_data.get('ingredients')
-            for ingredient in ingredients_data:
-                RecipeIngredient.objects.create(
-                    recipe=instance,
-                    ingredient=ingredient['ingredient']['pk'],
-                    amount=ingredient['amount'],
-                )
-        instance.name = validated_data.get('name', instance.name)
-        instance.image = validated_data.get('image', instance.image)
-        instance.text = validated_data.get('text', instance.text)
-        instance.cooking_time = validated_data.get('cooking_time',
-                                                   instance.cooking_time)
-        instance.save()
-        return instance
+            ingredients_data = validated_data.pop('ingredients')
+            self._set_ingredients(ingredients_data, instance)
+        return super().update(instance, validated_data)
+
+    def _set_ingredients(self, ingredients, recipe):
+        ingredients_objs = []
+        for ingredient in ingredients:
+            ingredients_objs.append(RecipeIngredient(
+                recipe=recipe,
+                ingredient=ingredient['ingredient']['pk'],
+                amount=ingredient['amount'],
+            ))
+        RecipeIngredient.objects.bulk_create(ingredients_objs)
+
+    @property
+    def data(self):
+        return RecipeSerializer(self.instance, context=self.context).data

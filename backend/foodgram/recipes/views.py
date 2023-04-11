@@ -4,7 +4,6 @@ from django_filters import rest_framework as filters
 from rest_framework.decorators import action
 from rest_framework.permissions import (IsAuthenticated,
                                         IsAuthenticatedOrReadOnly)
-from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet, ReadOnlyModelViewSet
 
 from core.pagination import LimitPagionation
@@ -77,27 +76,12 @@ class RecipeViewSet(ModelViewSet):
         return (IsAuthenticatedOrReadOnly(),)
 
     def get_serializer_class(self):
-        if self.action in ('create', 'update'):
+        if self.action in ('create', 'update', 'partial_update'):
             return RecipeCreateSerializer
         return RecipeSerializer
 
-    def create(self, request, *args, **kwargs):
-        serializer = RecipeCreateSerializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        recipe = serializer.save(author=request.user)
-        context = self.get_serializer_context()
-        serializer = RecipeSerializer(recipe, context=context)
-        return Response(serializer.data)
-
-    def update(self, request, *args, **kwargs):
-        instance = self.get_object()
-        serializer = RecipeCreateSerializer(instance=instance,
-                                            data=request.data)
-        serializer.is_valid(raise_exception=True)
-        recipe = serializer.save(author=request.user)
-        context = self.get_serializer_context()
-        serializer = RecipeSerializer(recipe, context=context)
-        return Response(serializer.data)
+    def perform_create(self, serializer):
+        serializer.save(author=self.request.user)
 
     @action(methods=('post', 'delete',), detail=True)
     def favorite(self, request, *args, **kwargs):
