@@ -87,7 +87,6 @@ class RecipeCreateSerializer(serializers.ModelSerializer):
         model = Recipe
 
     def validate_ingredients(self, ingredients):
-        print('DEBUG ingredients', ingredients[0])
         unique_ingredients_id = set(
             [ingr['ingredient']['pk'] for ingr in ingredients]
         )
