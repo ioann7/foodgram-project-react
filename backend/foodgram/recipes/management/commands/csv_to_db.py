@@ -1,11 +1,15 @@
 import csv
 import logging
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
+from django.contrib.auth import get_user_model
 from django.core.management.base import BaseCommand, CommandParser
+from django.db.models import Model
 
-from recipes.models import Ingredient, Tag
+from recipes.models import Ingredient, Recipe, RecipeIngredient, Tag
+
+User = get_user_model()
 
 logger = logging.getLogger(__name__)
 
@@ -45,25 +49,53 @@ class CsvToDb:
         return sorted(tables, key=lambda x: order.get(x, float('inf')))
 
     @classmethod
+    def _save_instance(cls, model_class: Model,
+                       instance: Dict[str, str]) -> None:
+        obj, status = model_class.objects.get_or_create(**instance)
+        created = 'created' if status else 'not created'
+        logger.info(f'{model_class.__name__} {obj} is {created}')
+
+    @classmethod
+    def csv_to_users(cls, data: List[Dict[str, str]]) -> None:
+        for instance in data:
+            user = User.objects.create_user(**instance)
+            logger.info(f'User {user} is created')
+
+    @classmethod
     def csv_to_ingredients(cls, data: List[Dict[str, str]]) -> None:
         for instance in data:
-            ingredient, status = Ingredient.objects.get_or_create(
-                name=instance['name'],
-                measurement_unit=instance['measurement_unit'],
-            )
-            created = 'created' if status else 'not created'
-            logger.info(f'Ingredient {ingredient} is {created}')
+            cls._save_instance(Ingredient, instance)
 
     @classmethod
     def csv_to_tags(cls, data: List[Dict[str, str]]) -> None:
         for instance in data:
-            tag, status = Tag.objects.get_or_create(
-                name=instance['name'],
-                color=instance['color'],
-                slug=instance['slug']
-            )
+            cls._save_instance(Tag, instance)
+
+    @classmethod
+    def csv_to_recipes(cls, data: List[Dict[str, str]]) -> None:
+        for instance in data:
+            tags_id = [int(tag) for tag in instance.pop('tags_id').split(',')]
+            obj, status = Recipe.objects.get_or_create(**instance)
+            if status:
+                obj.tags.set(tags_id)
             created = 'created' if status else 'not created'
-            logger.info(f'Tag {tag} is {created}')
+            logger.info(f'Recipe {obj} is {created}')
+
+    @classmethod
+    def csv_to_recipes_ingredients(cls, data: List[Dict[str, str]]) -> None:
+        for instance in data:
+            ingredient_name = instance.pop('ingredient_name')
+            try:
+                ingredient = Ingredient.objects.get(name=ingredient_name)
+            except Ingredient.DoesNotExists:
+                logger.warning(
+                    f'RecipeIngredient.'
+                    f'Cannot create m2m relation, '
+                    f'cause ingredient_name {ingredient_name} does not exists.'
+                )
+            else:
+                instance['ingredient'] = ingredient
+                cls._save_instance(RecipeIngredient, instance)
 
 
 class Command(BaseCommand):

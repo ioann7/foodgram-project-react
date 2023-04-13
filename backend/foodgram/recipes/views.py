@@ -12,8 +12,7 @@ from recipes.models import CartItem, Favorite, Ingredient, Recipe, Tag
 from recipes.serializers.common import (IngredientSerializer,
                                         RecipeCreateSerializer,
                                         RecipeSerializer, TagSerializer)
-from recipes.services import (FavoriteCartCreateDelete,
-                              ShoppingCartPdfGenerator)
+from recipes.services import FavoriteCartCreateDelete, ShoppingCartPdfGenerator
 from users.models import Follow
 
 User = get_user_model()
