@@ -12,8 +12,8 @@ services:
     image: ioann7/foodgram:latest
     restart: always
     volumes:
-      - backend_static_value:/app/backend_static/
-      - backend_media_value:/app/backend_media/
+      - backend_static_value:/app/static/
+      - backend_media_value:/app/media/
     depends_on:
       - db
     env_file:
