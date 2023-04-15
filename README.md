@@ -1,3 +1,6 @@
+- ![yamdb workflow](https://github.com/ioann7/foodgram-project-react/actions/workflows/foodgram_workflow.yml/badge.svg)
+- IP проекта: 51.250.86.15
+- Hostname: yatube-practicum.sytes.net
 # Foodgram
 Cервис для публикаций и обмена рецептами.
 
