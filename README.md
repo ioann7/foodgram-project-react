@@ -10,7 +10,15 @@ Cервис для публикаций и обмена рецептами.
 Чимров Иоанн 47 когорта Яндекс.Практикума
 
 ## Стек технологий
-Python 3.7.7, Django 3.2, Django REST Framework 3.14.
+- Python 3.7.7
+- Django 3.2.18
+- Django REST Framework 3.14
+- Полный список зависимостей Python можно найти по пути `backend/requirements.txt`
+- PostgreSQL 13.0
+- Nginx 1.21.3
+- Yandex.Cloud
+- Docker
+- Docker Compose
 
 ## Установка проекта на сервер
 #### 1. Скопируйте файлы из папки /infra/:
