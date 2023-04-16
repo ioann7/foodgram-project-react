@@ -12,7 +12,7 @@ services:
     image: ioann7/foodgram:latest
     restart: always
     volumes:
-      - backend_static_value:/app/static/
+      - backend_static_value:/app/static_backend/
       - backend_media_value:/app/media/
     depends_on:
       - db
