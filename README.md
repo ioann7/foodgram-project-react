@@ -23,7 +23,8 @@ Cервис для публикаций и обмена рецептами.
 ## Установка проекта на сервер
 #### 1. Скопируйте файлы из папки /infra/:
 ```bash
-scp -r infra/ <username>@<server_ip>:~/
+scp -r infra/nginx.conf <username>@<server_ip>:~/
+scp -r infra/docker-compose.yml <username>@<server_ip>:~/
 ```
 
 #### 2. Создайте на сервере файл `.env`:
@@ -102,7 +103,7 @@ sudo docker compose exec backend apt-get install wkhtmltopdf
 
 Сначала скопируйте папку `data` на сервер:
 ```bash
-scp -r data/ <username>@<server_ip>:~/foodgram_data/
+scp -r data/ <username>@<server_ip>:~/foodgram_data
 ```
 
 Затем переместите её в контейнер backend командой:
