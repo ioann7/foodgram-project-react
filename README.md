@@ -26,6 +26,7 @@ Cервис для публикаций и обмена рецептами.
 scp -r infra/nginx.conf <username>@<server_ip>:~/
 scp -r infra/docker-compose.yml <username>@<server_ip>:~/
 ```
+Так же, если хотите добавить документацию, скопируйте таким же образом содержимое папки `docs` в /home/docs/.
 
 #### 2. Создайте на сервере файл `.env`:
 ```bash
