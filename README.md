@@ -92,7 +92,13 @@ sudo docker compose exec backend python manage.py collectstatic
 sudo docker compose exec backend python manage.py createsuperuser
 ```
 
-#### 9. Заполните базу данных из файлов CSV (опционально):
+#### 9. Установите wkhtmltopdf:
+```bash
+sudo docker compose exec backend apt-get update
+sudo docker compose exec backend apt-get install wkhtmltopdf
+```
+
+#### 10. Заполните базу данных из файлов CSV (опционально):
 
 Сначала скопируйте папку `data` на сервер:
 ```bash
