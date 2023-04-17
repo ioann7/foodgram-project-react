@@ -75,6 +75,8 @@ jobs:
               sudo docker pull ${{ secrets.DOCKER_USERNAME }}/foodgram:latest
               sudo docker pull ${{ secrets.DOCKER_USERNAME }}/foodgram_frontend:latest
               sudo docker compose up -d --build
+              sudo docker compose exec backend apt-get update
+              sudo docker compose exec backend apt-get install wkhtmltopdf
   send_message:
     runs-on: ubuntu-latest
     needs: deploy
